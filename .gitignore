@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Environment Variables
+.env
+.env.*
+
+# Qdrant Data
+qdrant_data/
+demo_qdrant_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database (if using SQLite)
+db.sqlite3
