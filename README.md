@@ -55,16 +55,15 @@ claim --> LLM reformulation --> 3 queries --> dual retrieval (support / oppose)
 ## Project structure
 
 ```
-claimtrace/
-├── main.py              # FastAPI app, /ingest and /verify endpoints
-├── demo.py              # CLI demo against the sample corpus
-├── ingest.py            # chunking + embedding + Qdrant upsert
-├── retrieval.py         # dual-directional retrieval logic
-├── reformulate.py       # LLM query reformulation
-├── verdict.py           # verdict synthesis + confidence blending
-├── data/                # sample corpus used by demo.py
-├── requirements.txt
-└── README.md
+ClaimTrace/
+├── data/
+├── src/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── demo.py
+├── main.py
+└── requirements.txt
 ```
 
 (Adjust this to match your actual filenames before pushing.)
