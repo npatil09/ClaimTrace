@@ -44,3 +44,5 @@ def verify(req: VerifyRequest):
 @app.get("/stats")
 def stats():
     return {"total_chunks": store.count()}
+
+
